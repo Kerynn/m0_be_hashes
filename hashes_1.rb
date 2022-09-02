@@ -68,15 +68,15 @@ email = {
   "received" => true
 }
 
-# Write code that prints all of the 'keys' of the email hash
-# you created above:
-
+# # Write code that prints all of the 'keys' of the email hash
+# # you created above:
+#
 email.keys
-# => ["sender", "receiver", "subject", "timestamp", "received"]
-
-# Write code that prints all of the 'values' of the email hash
-# you created above:
-
+# # => ["sender", "receiver", "subject", "timestamp", "received"]
+#
+# # Write code that prints all of the 'values' of the email hash
+# # you created above:
+#
 email.values
 # => ["kdavis@gmail.com", "jnev@gmail.com", "Hello there", "4:23 PM September 4, 2022", true]
 
