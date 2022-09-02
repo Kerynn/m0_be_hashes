@@ -12,17 +12,20 @@ foods = {
   "eggs" => 48
 }
 
+p foods
+
+# {"apples"=>23, "grapes"=>507, "eggs"=>48}
 
 # Write code that prints all of the 'keys' of the foods variable
 # you created above:
 
-foods.keys
+p foods.keys
 # => ["apples", "grapes", "eggs"]
 
 # Write code that prints all of the 'values' of the foods variable
 # you created above:
 
-foods.values
+p foods.values
 # => [23, 507, 48]
 
 
@@ -45,6 +48,8 @@ foods = {
   "avocado" => 4
 }
 
+p foods
+# {"apples"=>23, "grapes"=>507, "eggs"=>48, "avocado"=>4}
 
 #-------------------
 # Part 2: Email
@@ -68,16 +73,20 @@ email = {
   "received" => true
 }
 
+p email
+# {"sender"=>"kdavis@gmail.com", "receiver"=>"jnev@gmail.com", "subject"=>"Hello there", "timestamp"=>"4:23 PM September 4, 2022", "received"=>true}
+
 # # Write code that prints all of the 'keys' of the email hash
 # # you created above:
-#
-email.keys
+
+p email.keys
 # # => ["sender", "receiver", "subject", "timestamp", "received"]
-#
+
+
 # # Write code that prints all of the 'values' of the email hash
 # # you created above:
-#
-email.values
+
+p email.values
 # => ["kdavis@gmail.com", "jnev@gmail.com", "Hello there", "4:23 PM September 4, 2022", true]
 
 
@@ -153,3 +162,7 @@ email = [
   "received" => true
 }
 ]
+
+p email
+
+# [{"sender"=>"kdavis@gmail.com", "receiver"=>"jnev@gmail.com", "subject"=>"Hello there", "timestamp"=>"4:23 PM September 4, 2022", "received"=>true}, {"sender"=>"nemoore@yahoo.com", "receiver"=>"pandjdavis@gmail.com", "subject"=>"Checking In", "timestamp"=>"9:48 PM August 4, 2018", "received"=>true}, {"sender"=>"johns_jay@pdx.edu", "receiver"=>"sleepy342@aol.com", "subject"=>"Party Planning", "timestamp"=>"11:15 AM May 12, 2019", "received"=>true}]
