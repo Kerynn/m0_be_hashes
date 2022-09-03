@@ -76,6 +76,14 @@ email = {
 p email
 # {"sender"=>"kdavis@gmail.com", "receiver"=>"jnev@gmail.com", "subject"=>"Hello there", "timestamp"=>"4:23 PM September 4, 2022", "received"=>true}
 
+puts "From: #{email["sender"]}
+To: #{email["receiver"]}
+Subject: #{email["subject"]}
+Received: #{email["timestamp"]}"
+
+
+
+
 # # Write code that prints all of the 'keys' of the email hash
 # # you created above:
 
