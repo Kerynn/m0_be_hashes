@@ -81,7 +81,10 @@ To: #{email["receiver"]}
 Subject: #{email["subject"]}
 Received: #{email["timestamp"]}"
 
-
+# From: kdavis@gmail.com
+# To: jnev@gmail.com
+# Subject: Hello there
+# Received: 4:23 PM September 4, 2022
 
 
 # # Write code that prints all of the 'keys' of the email hash
